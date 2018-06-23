@@ -6,9 +6,9 @@ from mandelbrot import calc_value, pixel_to_real
 while the script is running press the space bar in order to get the mouse position logged in the console
 which you can then insert as a value for center points  
 """
-pixel_to_value_ratio = 1000  # increase to zoom further in
-center_point= (-1.755, 0.005)  # change this coordinate to change where the center of the screen should look at
-max_iter = 300  # increase this value if you see only black, this value adjusts the color 
+pixel_to_value_ratio = 200  # increase to zoom further in
+center_point= (0, 0)  # change this coordinate to change where the center of the screen should look at
+max_iter = 100  # increase this value if you see only black, this value adjusts the color 
 screen_width = 800  
 screen_height = 600
 values = calc_value(
